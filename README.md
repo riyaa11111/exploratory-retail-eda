@@ -1,17 +1,17 @@
-# Exploratory Data Analysis (EDA) on Retail Dataset
+# Advanced Retail Business Intelligence Dashboard
 
-A Python-based data analytics pipeline designed to ingest raw retail transaction data, clean and engineer sales metrics, and generate stakeholder-ready visual insights regarding product revenue performance.
+A production-grade Python data analytics pipeline that ingests raw retail transaction data, engineers business-critical metrics, and generates an automated executive dashboard.
 
-## 📊 Core Features
-- **Data Preprocessing:** Automated handling of transactional records and structured column alignment.
-- **Feature Engineering:** Vectorized operations to compute total revenue and dynamically flag premium products (`High_Price_Flag`).
-- **Data Aggregation:** Multi-dimensional segmentation using Pandas GroupBy to isolate top-performing categories.
-- **Data Visualization:** Production-grade visualizations built via Matplotlib highlighting sales and distribution trends.
+## 📊 Project Enhancements
+- **Data Preprocessing:** Standardized pipeline with dynamic string stripping and automated formatting safeguards.
+- **Feature Engineering:** Calculated total revenue using optimized vectorization and applied custom performance flags (`High_Price_Flag`).
+- **Multi-Dimensional Aggregation:** Grouped sales data by both product variants and geographic sectors to extract deep financial insights.
+- **Executive Subplots Dashboard:** Generated a 2-in-1 layout combining product revenue bar charts and regional market share pie charts.
 
 ## 🛠️ Tech Stack
 - **Language:** Python 3.x
 - **Libraries:** Pandas, Matplotlib
 
-## 📈 Visualizations
-The pipeline automatically exports analytical charts for business decision-making:
-![Revenue Distribution](revenue_chart.png)
+## 📈 Executive Summary Dashboard
+The pipeline automatically exports analytical charts for business stakeholder presentations:
+![Retail Dashboard](retail_dashboard.png)
